@@ -279,18 +279,8 @@ function startRound() {
     // Load location
     gameState.currentLocation = gameState.gameLocations[gameState.currentRound - 1];
     
-    // Init panorama với ảnh placeholder hoặc ảnh thực
-    // Lưu ý: Wikimedia URLs có thể không hoạt động, sử dụng ảnh demo
-    const demoImages = [
-        'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=2048',
-        'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=2048',
-        'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=2048',
-        'https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=2048',
-        'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=2048'
-    ];
-    
-    const randomImage = demoImages[Math.floor(Math.random() * demoImages.length)];
-    initPanorama(randomImage);
+    // Init panorama với ảnh thực của địa điểm
+    initPanorama(gameState.currentLocation.imageUrl);
     
     // Focus vào panorama container
     document.getElementById('panorama-container').scrollIntoView({ behavior: 'smooth' });

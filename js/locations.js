@@ -8,73 +8,73 @@ const locationsData = {
             name: "Hồ Gươm (Hồ Hoàn Kiếm), Hà Nội",
             lat: 21.0282,
             lng: 105.8522,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hoan_Kiem_Lake_Hanoi_360.jpg/4096px-Hoan_Kiem_Lake_Hanoi_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1580289368062-5ebdb0b19092?w=2048&q=80"
         },
         {
             name: "Cầu Vàng, Bà Nà Hills, Đà Nẵng",
             lat: 15.9942,
             lng: 107.9714,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Golden_Bridge_Ba_Na_Hills_360.jpg/4096px-Golden_Bridge_Ba_Na_Hills_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=2048&q=80"
         },
         {
             name: "Phố cổ Hội An",
             lat: 15.8790,
             lng: 108.3350,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Hoi_An_Ancient_Town_360.jpg/4096px-Hoi_An_Ancient_Town_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?w=2048&q=80"
         },
         {
             name: "Vịnh Hạ Long",
             lat: 20.9101,
             lng: 107.1839,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Ha_Long_Bay_360.jpg/4096px-Ha_Long_Bay_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1538970272646-f61fabb3a8a2?w=2048&q=80"
         },
         {
             name: "Thánh địa Mỹ Sơn",
             lat: 15.7828,
             lng: 108.1042,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/My_Son_Sanctuary_360.jpg/4096px-My_Son_Sanctuary_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=2048&q=80"
         },
         {
             name: "Chợ Bến Thành, TP.HCM",
             lat: 10.7721,
             lng: 106.6916,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Ben_Thanh_Market_360.jpg/4096px-Ben_Thanh_Market_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1574354616561-888829c4868f?w=2048&q=80"
         },
         {
             name: "Nhà thờ Đức Bà, TP.HCM",
             lat: 10.7798,
             lng: 106.6984,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Saigon_Notre_Dame_Cathedral_360.jpg/4096px-Saigon_Notre_Dame_Cathedral_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1608222476938-4c80c9dc3d4c?w=2048&q=80"
         },
         {
             name: "Cột cờ Hà Nội",
             lat: 21.0295,
             lng: 105.8520,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Hanoi_Flag_Tower_360.jpg/4096px-Hanoi_Flag_Tower_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1587806888023-34e1c99b9e44?w=2048&q=80"
         },
         {
             name: "Bãi biển Nha Trang",
             lat: 12.2387,
             lng: 109.1967,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Nha_Trang_Beach_360.jpg/4096px-Nha_Trang_Beach_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1506665531195-3566af2ff418?w=2048&q=80"
         },
         {
             name: "Đỉnh Fansipan, Lào Cai",
             lat: 22.3079,
             lng: 103.8120,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Fansipan_Mountain_360.jpg/4096px-Fansipan_Mountain_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=2048&q=80"
         },
         {
             name: "Phú Quốc",
             lat: 10.2445,
             lng: 103.9867,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Phu_Quoc_Island_360.jpg/4096px-Phu_Quoc_Island_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?w=2048&q=80"
         },
         {
             name: "Cần Thơ",
             lat: 10.0452,
             lng: 105.7469,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Can_Tho_City_360.jpg/4096px-Can_Tho_City_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?w=2048&q=80"
         }
     ],
     
@@ -84,73 +84,73 @@ const locationsData = {
             name: "Tháp Eiffel, Paris, Pháp",
             lat: 48.8584,
             lng: 2.2945,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Eiffel_Tower_Paris_360.jpg/4096px-Eiffel_Tower_Paris_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1511739001486-6bfe10ce7859?w=2048&q=80"
         },
         {
             name: "Tượng Nữ Tự Do, New York, Mỹ",
             lat: 40.6892,
             lng: -74.0445,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_360.jpg/4096px-Statue_of_Liberty_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1605130284535-11dd9eedc58a?w=2048&q=80"
         },
         {
             name: "Đại Colosseum, Rome, Ý",
             lat: 41.8902,
             lng: 12.4922,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Colosseum_Rome_360.jpg/4096px-Colosseum_Rome_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=2048&q=80"
         },
         {
             name: "Kinh thành Machu Picchu, Peru",
             lat: -13.1631,
             lng: -72.5450,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu_360.jpg/4096px-Machu_Picchu_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=2048&q=80"
         },
         {
             name: "Vườn quốc gia Serengeti, Tanzania",
             lat: -2.1540,
             lng: 34.6857,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Serengeti_National_Park_360.jpg/4096px-Serengeti_National_Park_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=2048&q=80"
         },
         {
             name: "Tòa nhà Empire State, New York, Mỹ",
             lat: 40.7484,
             lng: -73.9857,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Empire_State_Building_360.jpg/4096px-Empire_State_Building_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=2048&q=80"
         },
         {
             name: "Cổng Brandenburg, Berlin, Đức",
             lat: 52.5163,
             lng: 13.3777,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Brandenburg_Gate_360.jpg/4096px-Brandenburg_Gate_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1560969184-10fe8719e047?w=2048&q=80"
         },
         {
             name: "Kremlin, Moscow, Nga",
             lat: 55.7520,
             lng: 37.6173,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Moscow_Kremlin_360.jpg/4096px-Moscow_Kremlin_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1513326738677-b964603b136d?w=2048&q=80"
         },
         {
             name: "Đền Taj Mahal, Ấn Độ",
             lat: 27.1751,
             lng: 78.0421,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Taj_Mahal_360.jpg/4096px-Taj_Mahal_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=2048&q=80"
         },
         {
             name: "Vạn Lý Trường Thành, Trung Quốc",
             lat: 40.4319,
             lng: 116.5704,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Great_Wall_of_China_360.jpg/4096px-Great_Wall_of_China_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=2048&q=80"
         },
         {
-            name: "Tháp Sydney, Úc",
+            name: "Nhà hát Sydney, Úc",
             lat: -33.8688,
             lng: 151.2093,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Sydney_Opera_House_360.jpg/4096px-Sydney_Opera_House_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1624138784180-40c8aaa0e2c1?w=2048&q=80"
         },
         {
             name: "Đại Kim Tự Tháp, Ai Cập",
             lat: 29.9792,
             lng: 31.1342,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Great_Pyramid_of_Giza_360.jpg/4096px-Great_Pyramid_of_Giza_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=2048&q=80"
         }
     ],
     
@@ -160,73 +160,73 @@ const locationsData = {
             name: "Văn Miếu - Quốc Tử Giám, Hà Nội",
             lat: 21.0275,
             lng: 105.8349,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Temple_of_Literature_Hanoi_360.jpg/4096px-Temple_of_Literature_Hanoi_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1580289368062-5ebdb0b19092?w=2048&q=80"
         },
         {
             name: "Đền Ngự Sơn, Côn Đảo",
             lat: 8.6833,
             lng: 106.6167,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Con_Dao_Pristine_Beach_360.jpg/4096px-Con_Dao_Pristine_Beach_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1506665531195-3566af2ff418?w=2048&q=80"
         },
         {
             name: "Điện Huế, Huế",
             lat: 16.4637,
             lng: 107.5909,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Hue_Imperial_City_360.jpg/4096px-Hue_Imperial_City_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=2048&q=80"
         },
         {
             name: "Tháp Chàm Pô Nagar, Nha Trang",
             lat: 12.2452,
             lng: 109.1946,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Po_Nagar_Towers_360.jpg/4096px-Po_Nagar_Towers_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1569383746724-6f1b882b8f46?w=2048&q=80"
         },
         {
             name: "Hang Sơn Đoòng, Quảng Bình",
             lat: 17.2708,
             lng: 106.2833,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Son_Doong_Cave_360.jpg/4096px-Son_Doong_Cave_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=2048&q=80"
         },
         {
             name: "Khu phố cổ Hà Nội",
             lat: 21.0313,
             lng: 105.8495,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Hanoi_Old_Quarter_360.jpg/4096px-Hanoi_Old_Quarter_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1587806888023-34e1c99b9e44?w=2048&q=80"
         },
         {
             name: "Dinh Độc Lập, TP.HCM",
             lat: 10.7790,
             lng: 106.6945,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Independence_Palace_360.jpg/4096px-Independence_Palace_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1574354616561-888829c4868f?w=2048&q=80"
         },
         {
             name: "Thánh địa Đức Mẹ La Vang, Quảng Trị",
             lat: 16.7833,
             lng: 106.5833,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/La_Vang_Sanctuary_360.jpg/4096px-La_Vang_Sanctuary_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=2048&q=80"
         },
         {
             name: "Khu du lịch Tam Đảo, Vĩnh Phúc",
             lat: 21.4745,
             lng: 105.6329,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Tam_Dao_Hill_Station_360.jpg/4096px-Tam_Dao_Hill_Station_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=2048&q=80"
         },
         {
             name: "Khu du lịch Đầm Pông, Đắk Lắk",
             lat: 12.6667,
             lng: 108.0333,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Dam_Pong_Lake_360.jpg/4096px-Dam_Pong_Lake_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1506665531195-3566af2ff418?w=2048&q=80"
         },
         {
             name: "Biển Đồi Dừa, Quảng Nam",
             lat: 15.9333,
             lng: 108.4667,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Coconut_Tree_Beach_360.jpg/4096px-Coconut_Tree_Beach_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1506665531195-3566af2ff418?w=2048&q=80"
         },
         {
             name: "Động Phong Nha, Quảng Bình",
             lat: 17.4167,
             lng: 106.2833,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Phong_Nha_Cave_360.jpg/4096px-Phong_Nha_Cave_360.jpg"
+            imageUrl: "https://images.unsplash.com/photo-1538970272646-f61fabb3a8a2?w=2048&q=80"
         }
     ]
 };
