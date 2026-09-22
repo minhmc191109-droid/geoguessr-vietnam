@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoGuessr Việt Nam - Game Đoán Vị Trí</title>
+    
+    <!-- Pannellum.js Library cho ảnh 360 độ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    
+    <!-- Leaflet.js Library cho bản đồ -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Màn hình Bắt đầu -->
+    <div id="start-screen" class="screen active">
+        <div class="container">
+            <h1 class="game-title">🌍 GeoGuessr Việt Nam</h1>
+            <p class="game-subtitle">Đoán vị trí từ ảnh 360 độ</p>
+            
+            <div class="input-group">
+                <label for="player-name">Tên người chơi:</label>
+                <input type="text" id="player-name" placeholder="Nhập tên của bạn..." maxlength="20">
+            </div>
+            
+            <div class="mode-selection">
+                <h3>Chọn chế độ chơi:</h3>
+                <div class="mode-buttons">
+                    <button class="mode-btn" data-mode="vietnam">
+                        <span class="mode-icon">🇻🇳</span>
+                        <span class="mode-name">Việt Nam</span>
+                    </button>
+                    <button class="mode-btn" data-mode="world">
+                        <span class="mode-icon">🌍</span>
+                        <span class="mode-name">Thế Giới</span>
+                    </button>
+                    <button class="mode-btn" data-mode="landmarks">
+                        <span class="mode-icon">🏛️</span>
+                        <span class="mode-name">Danh Lam Thắng Cảnh</span>
+                    </button>
+                </div>
+            </div>
+            
+            <button id="start-btn" class="btn btn-primary" disabled>Bắt đầu chơi</button>
+        </div>
+    </div>
+
+    <!-- Màn hình Gameplay -->
+    <div id="game-screen" class="screen">
+        <div class="game-header">
+            <div class="game-info">
+                <span id="player-display">Người chơi: -</span>
+                <span id="round-display">Vòng: 1/3</span>
+                <span id="score-display">Điểm: 0</span>
+            </div>
+            <button id="quit-btn" class="btn btn-secondary">Thoát</button>
+        </div>
+        
+        <div class="game-content">
+            <!-- Khung ảnh 360 độ -->
+            <div id="panorama-container">
+                <div id="panorama"></div>
+            </div>
+            
+            <!-- Bản đồ nhỏ -->
+            <div class="map-container">
+                <div id="game-map"></div>
+                <button id="guess-btn" class="btn btn-guess" disabled>Đoán</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Màn hình Kết quả Vòng -->
+    <div id="round-result-screen" class="screen">
+        <div class="container result-container">
+            <h2>Kết quả Vòng <span id="round-number">1</span></h2>
+            
+            <div class="result-info">
+                <div class="result-item">
+                    <span class="result-label">Địa điểm thực:</span>
+                    <span id="actual-location" class="result-value">-</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Khoảng cách:</span>
+                    <span id="distance" class="result-value">-</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Điểm đạt được:</span>
+                    <span id="round-score" class="result-value score">-</span>
+                </div>
+            </div>
+            
+            <div class="result-map">
+                <div id="result-map"></div>
+            </div>
+            
+            <button id="next-round-btn" class="btn btn-primary">Vòng tiếp theo</button>
+        </div>
+    </div>
+
+    <!-- Màn hình Kết quả Cuối cùng -->
+    <div id="final-result-screen" class="screen">
+        <div class="container">
+            <h2>🎉 Hoàn thành!</h2>
+            
+            <div class="final-stats">
+                <div class="stat-item">
+                    <span class="stat-label">Người chơi:</span>
+                    <span id="final-player" class="stat-value">-</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Chế độ:</span>
+                    <span id="final-mode" class="stat-value">-</span>
+                </div>
+                <div class="stat-item large">
+                    <span class="stat-label">Tổng điểm:</span>
+                    <span id="final-score" class="stat-value score">-</span>
+                </div>
+            </div>
+            
+            <div class="result-actions">
+                <button id="play-again-btn" class="btn btn-primary">Chơi lại</button>
+                <button id="leaderboard-btn" class="btn btn-secondary">Bảng xếp hạng</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Màn hình Bảng Xếp Hạng -->
+    <div id="leaderboard-screen" class="screen">
+        <div class="container">
+            <h2>🏆 Bảng Xếp Hạng</h2>
+            
+            <div class="leaderboard-tabs">
+                <button class="tab-btn active" data-mode="vietnam">Việt Nam</button>
+                <button class="tab-btn" data-mode="world">Thế Giới</button>
+                <button class="tab-btn" data-mode="landmarks">Danh Lam</button>
+            </div>
+            
+            <div id="leaderboard-content">
+                <table class="leaderboard-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Người chơi</th>
+                            <th>Điểm</th>
+                            <th>Ngày</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaderboard-body">
+                        <!-- Dữ liệu sẽ được điền bằng JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+            
+            <button id="back-home-btn" class="btn btn-secondary">Về trang chủ</button>
+        </div>
+    </div>
+
+    <!-- Script files -->
+    <script src="js/locations.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
