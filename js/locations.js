@@ -8,7 +8,7 @@ const locationsData = {
             name: "Hồ Gươm (Hồ Hoàn Kiếm), Hà Nội",
             lat: 21.0285,
             lng: 105.8542,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/3/35/Hoan_Kiem_Lake_night_panorama.jpg"
+            imageUrl: "https://36pho.com/thumbnail/upload/2024/12/16/w-ho-guom-1-13726-1.jpg?w=1202&h=902&cr=1"
         },
         {
             name: "Chợ Bến Thành, TP.HCM",
@@ -74,7 +74,7 @@ const locationsData = {
             name: "Khu du lịch Tràng An, Ninh Bình",
             lat: 20.2526,
             lng: 105.9142,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/df/Trang_An_Landscape_Complex_Panorama.jpg"
+            imageUrl: "https://ik.imagekit.io/tvlk/blog/2022/11/khu-du-lich-trang-an-2.jpg"
         }
     ],
     
