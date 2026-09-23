@@ -74,7 +74,7 @@ const locationsData = {
             name: "Khu du lịch Tràng An, Ninh Bình",
             lat: 20.2526,
             lng: 105.9142,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/df/Trang_An_Landscape_Complex_Panorama.jpg"
+            imageUrl: "https://www.bachhoaxanh.com/kinh-nghiem-hay/kinh-nghiem-du-lich-trang-an-ninh-binh-day-thu-vi-tiet-kiem-1365422"
         }
     ],
     
