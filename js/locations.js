@@ -8,7 +8,7 @@ const locationsData = {
             name: "Hồ Gươm (Hồ Hoàn Kiếm), Hà Nội",
             lat: 21.0285,
             lng: 105.8542,
-            imageUrl: "https://36pho.com/thumbnail/upload/2024/12/16/w-ho-guom-1-13726-1.jpg?w=1202&h=902&cr=1"
+            imageUrl: "https://i1-vnexpress.vnecdn.net/2024/12/12/Hoguom1-5405-1733987712.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=XwwHpVo3L2qFFHO6R6E2GA"
         },
         {
             name: "Chợ Bến Thành, TP.HCM",
@@ -90,7 +90,7 @@ const locationsData = {
             name: "Tượng Nữ Thần Tự Do, New York, Mỹ",
             lat: 40.6892,
             lng: -74.0445,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/97/Photomontage_%28Forggensee_Panorama%29_-2.jpg"
+            imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSjEe63CO0toSfFZvoc8Mal4XjxjYDD0Gss8QvjojKt85B3elFkdkIGII&s=10"
         },
         {
             name: "Đấu trường Colosseum, Rome, Ý",
