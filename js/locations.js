@@ -190,7 +190,7 @@ const locationsData = {
             name: "Động Phong Nha, Quảng Bình",
             lat: 17.4167,
             lng: 106.2833,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Phong_Nha_Cave_Entrance_Panorama.jpg"
+            imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5d63oLzcv0wnwatp559mJdRZhijMmxewinOYHkO8a55q9jPa0vTFqmDDW&s=10"
         },
         {
             name: "Tháp Trầm Hương, Nha Trang",
