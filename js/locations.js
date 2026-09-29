@@ -14,7 +14,7 @@ const locationsData = {
             name: "Chợ Bến Thành, TP.HCM",
             lat: 10.7721,
             lng: 106.6982,
-            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Ben_Thanh_Market_Panorama.jpg"
+            imageUrl: "https://images2.thanhnien.vn/528068263637045248/2024/11/21/cho-ben-thanh-17321585057331174653491.jpg"
         },
         {
             name: "Phố cổ Hội An, Quảng Nam",
